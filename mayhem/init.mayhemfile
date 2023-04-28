@@ -1,0 +1,7 @@
+project: blisp
+target: init
+duration: 600
+cmds:
+    - cmd: /fuzzers/fuzz_init
+testsuite:
+    - file:///corpus/blisp

@@ -1,0 +1,7 @@
+project: blisp
+target: eval
+duration: 600
+cmds:
+    - cmd: /fuzzers/fuzz_eval
+testsuite:
+    - file:///corpus/blisp

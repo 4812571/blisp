@@ -1,0 +1,7 @@
+project: blisp
+target: typing
+duration: 600
+cmds:
+    - cmd: /fuzzers/fuzz_typing
+testsuite:
+    - file:///corpus/blisp
